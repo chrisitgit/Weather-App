@@ -25,7 +25,7 @@ app.get('', (req, res) => {
     })
 })
 
-//localhost:3000/weather?address=lahore
+//localhost:3001/weather?address=lahore
 app.get('/weather', (req, res) => {
     const address = req.query.address
     if(!address) {
