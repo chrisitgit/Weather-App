@@ -51,12 +51,12 @@ h2 {
 }
 
 .weatherLocation button{
-  background: hsl(40, 94%, 50%);
-  color:rgb(14, 243, 243);
+  background: hsla(40, 97%, 49%, 0.945);
+  color:#060707;
   border: 1px solid transparent;
 }
 .weatherLocation input:focus{
-  outline: 0 none;
+  outline-color: currentcolor;
 }
 
 .widget .weatherIcon {
