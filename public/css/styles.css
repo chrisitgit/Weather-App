@@ -7,9 +7,9 @@ body {
   max-width: 500px;
   margin: 0 auto;
   padding: 0 10px;
-  display: -moz-inline-stack;
+  display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .main-content {
@@ -17,13 +17,13 @@ body {
 }
 
 header {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 h2 {
-  font-size: 70px;
-  margin-bottom: 20px;
+  font-size: 900px;
+  margin-bottom: 10px;
 }
 
 
