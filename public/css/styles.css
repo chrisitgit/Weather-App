@@ -2,14 +2,14 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
 /* $border-radius: 20px; */
 body {
-  color: hsl(98, 94%, 53%);
+  color: #dbee2f;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 500px;
+  max-width: 650px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 100vh;
 }
 
 .main-content {
@@ -17,13 +17,13 @@ body {
 }
 
 header {
-  margin-top: 10px;
-  margin-bottom: 80px;
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 h2 {
-  font-size: 90px;
-  margin-bottom: 20px;
+  font-size: 64px;
+  margin-bottom: 16px;
 }
 
 
@@ -38,7 +38,7 @@ h2 {
   flex-wrap: wrap;
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 27px 55px 0 rgba(190, 40, 40, 0.3), 0 17px 17px 0 rgba(219, 79, 79, 0.15);
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
 }
 
 .weatherLocation{
@@ -46,17 +46,17 @@ h2 {
   align-items: center;
   width: 100%;
   justify-content: center;
-  padding: 3rem;
-  background-color: #0d0d0e
+  padding: 2rem;
+  background-color: #fafafa;
 }
 
 .weatherLocation button{
-  background: hsla(40, 97%, 49%, 0.945);
-  color:#060707;
+  background: #080705;
+  color:#fff;
   border: 1px solid transparent;
 }
 .weatherLocation input:focus{
-  outline-color: currentcolor;
+  outline: 0 none;
 }
 
 .widget .weatherIcon {
@@ -64,7 +64,7 @@ h2 {
   height: 60%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background: hsl(180, 96%, 51%);
+  background: #54ade9;
   font-family: weathericons;
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@ h2 {
   font-size: 100px;
 }
 .widget .weatherIcon i {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .widget .weatherInfo {
   flex: 0 0 70%;
@@ -81,7 +81,7 @@ h2 {
   border-bottom-left-radius: 20px;
   display: flex;
   align-items: center;
-  color: rgb(24, 212, 7);
+  color: white;
 }
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
@@ -114,7 +114,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: rgb(34, 228, 8);
+  color: white;
   font-size: 30px;
   font-weight: 800;
 }
@@ -126,6 +126,6 @@ p {
 }
 p a {
   text-decoration: none;
-  color: #3e12df;
+  color: #E4D6A7;
   font-size: 10px;
 }
